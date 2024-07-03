@@ -29,12 +29,12 @@ const PollResults = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-white">
+    <div className="flex justify-center items-center min-h-screen bg-white overflow-y-auto">
       <div className="w-full max-w-xl p-6 bg-gray-400 rounded-lg shadow-md">
         <h1 className="text-2xl mb-4 text-center font-bold">Poll Results</h1>
-        {polls.map((poll) => (
+        {polls.map((poll,index) => (
           <div key={poll.id} className="mb-4">
-            <h2 className="text-xl">{poll.question}</h2>
+            <h2 className="text-xl font-bold">{index+1 }.{poll.question}</h2>
             {poll.options.map((option, index) => (
               <div key={index} className="flex justify-between">
                 <span>{option}</span>

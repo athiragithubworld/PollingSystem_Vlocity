@@ -47,7 +47,7 @@ const CreatePoll = () => {
 
   return (
     
-    <div className="flex justify-center items-center  bg-white">
+    <div className="max-w-lg mx-auto min-h-screen flex justify-center items-center">
       <div className="w-full max-w-lg p-6 bg-gray-400 rounded-lg shadow-md">
         <h1 className="text-2xl mb-4 text-center font-bold">Create Poll</h1>
         <form onSubmit={handleSubmit}>
