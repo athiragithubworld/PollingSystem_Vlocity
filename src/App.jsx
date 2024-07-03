@@ -52,7 +52,7 @@ import CreatePoll from "./Components/CreatePoll";
 import VotePoll from "./Components/VotePoll";
 import PollResults from "./Components/PollResults";
 import Comments from "./Components/Comment";
-import UserProfile from "./Components/UserProfile";
+
 
 const App = () => {
   return (
@@ -70,9 +70,7 @@ const App = () => {
             <Link to="/results" className="mr-4 hover:underline">
               Poll Results
             </Link>
-            {/* <Link to="/profile/123" className="mr-4 hover:underline">
-              User Profile
-            </Link> */}
+           
           </nav>
         </header>
         <main className="mt-20 overflow-y-auto p-4">
@@ -81,7 +79,7 @@ const App = () => {
             <Route path="/vote" element={<VotePoll />} />
             <Route path="/results" element={<PollResults />} />
             <Route path="/comments/:pollId" element={<Comments />} />
-            {/* <Route path="/profile/:userId" element={<UserProfile />} /> */}
+           
           </Routes>
         </main>
       </div>
