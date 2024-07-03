@@ -1,0 +1,59 @@
+{
+  "polls": [
+    {
+      "id": "ea0e",
+      "question": "Choose a food",
+      "options": [
+        "Ice Cream",
+        "Chocolate"
+      ],
+      "votes": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "a4b6",
+      "question": "Choose a language",
+      "options": [
+        "React Js",
+        "Node Js"
+      ],
+      "votes": [
+        2,
+        0
+      ]
+    },
+    {
+      "id": "ce27",
+      "question": "Choose  a color ",
+      "options": [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+      ],
+      "votes": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": "b6b0",
+      "pollId": "a4b6",
+      "text": "No one vote for node",
+      "parentId": null
+    },
+    {
+      "id": "265e",
+      "pollId": "a4b6",
+      "text": "All love react",
+      "parentId": "b6b0"
+    }
+  ],
+  "users": []
+}
