@@ -37,17 +37,19 @@ Welcome to the Polling System project! This project allows users to create polls
 
      npm install
 
+     
+
    **c. Start the JSON Server:**
 
      The backend is simulated using JSON Server. Start it with:
 
-     npm run server
+     json-server --watch db.json --port 5000 (or) npx json-server --watch db.json --port 5000
 
    **d. Start the React application:**
 
      Open a new terminal and start the React app:
 
-     npm start
+     npm run dev
 
 
    **e. Open in your browser:**
