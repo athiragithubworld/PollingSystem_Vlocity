@@ -1,4 +1,4 @@
-**Polling System**
+#Polling System**
 Welcome to the Polling System project! This project allows users to create polls, vote in them, view poll results, and add comments to the poll. It's built using React for the frontend and a custom JSON server as the backend.
 
 **Features**
@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 
 **1. Clone the repository:**
 
-git clone <repository-url>
+git clone https://github.com/athiragithubworld/PollingSystem_Vlocity.git
 cd polling-system
 
 **2. Install dependencies:**
