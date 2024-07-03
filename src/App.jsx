@@ -28,7 +28,7 @@ const App = () => {
             </Link>
           </nav>
         </header>
-        <main className="p-4 ">
+        <main className=" ">
           <Routes>
             <Route path="/create" element={<CreatePoll />} />
             <Route path="/vote" element={<VotePoll />} />
