@@ -1,4 +1,4 @@
-#Polling System
+# Polling System
 
 Welcome to the Polling System project! This project allows users to create polls, vote in them, view poll results, and add comments to the poll. It's built using React for the frontend and a custom JSON server as the backend.
 
