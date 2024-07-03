@@ -1,8 +1,52 @@
-# React + Vite
+**Polling System**
+Welcome to the Polling System project! This project allows users to create polls, vote in them, view poll results, and add comments to the poll. It's built using React for the frontend and a custom JSON server as the backend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Features**
+**1.Create Polls:** Create polls with multiple options.
+**2.Vote in Polls:** Users can vote for their preferred option in each poll.
+**3.View Poll Results:** Users can see the results of polls they've participated in.
+**4.Add Comments to poll :** User can comment to the poll
 
-Currently, two official plugins are available:
+**Technologies Used**
+**Frontend:** React, React Router, Tailwind CSS
+**Backend:** JSON Server (mock API)
+**Additional Tools:** Axios for API calls
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+**Setup Instructions**
+To run this project locally, follow these steps:
+
+**1. Clone the repository:**
+
+git clone <repository-url>
+cd polling-system
+
+**2. Install dependencies:**
+
+npm install
+
+**3. Start the JSON Server:**
+
+The backend is simulated using JSON Server. Start it with:
+
+npm run server
+
+**4. Start the React application:**
+
+Open a new terminal and start the React app:
+
+npm start
+
+
+**5. Open in your browser:**
+
+Visit http://localhost:3000 or the port mention in the code editor to see the application running.
+
+**Project Structure**
+The project structure is organized as follows:
+
+**public/:** Static assets and index.html.
+**src/:** Source files for the React application.
+**Components/:** React components for different parts of the application.
+**App.jsx:** Main component where routing and main layout are defined.
+**main.js:** Entry point of the React application.
