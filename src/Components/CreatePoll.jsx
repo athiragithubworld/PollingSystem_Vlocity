@@ -38,6 +38,8 @@ const CreatePoll = () => {
      });
      alert("Poll Created Successfully");
      navigate("/");
+     setQuestion('')
+     setOptions(['', ''])
    } catch (error) {
      console.error("Error creating poll:", error);
      alert("There was an error creating the poll. Please try again.");

@@ -9,7 +9,7 @@
       ],
       "votes": [
         2,
-        3
+        4
       ]
     },
     {
@@ -36,6 +36,30 @@
       "votes": [
         0,
         1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "8fc1",
+      "question": "Choose one",
+      "options": [
+        "Dog",
+        "Cat"
+      ],
+      "votes": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "4ab9",
+      "question": "Choose one animal",
+      "options": [
+        "Dog",
+        "Cat"
+      ],
+      "votes": [
         0,
         0
       ]
