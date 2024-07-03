@@ -40,7 +40,6 @@
         0
       ]
     }
-   
   ],
   "comments": [
     {
@@ -54,6 +53,12 @@
       "pollId": "a4b6",
       "text": "All love react",
       "parentId": "b6b0"
+    },
+    {
+      "id": "62f3",
+      "pollId": "a4b6",
+      "text": "nkkj",
+      "parentId": null
     }
   ],
   "users": []
