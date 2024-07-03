@@ -20,6 +20,7 @@ To run this project locally, follow these steps:
 **1. Clone the repository:**
 
 git clone https://github.com/athiragithubworld/PollingSystem_Vlocity.git
+
 cd polling-system
 
 **2. Install dependencies:**
